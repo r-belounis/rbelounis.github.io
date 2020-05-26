@@ -1,0 +1,78 @@
+/**********************************************************/
+/** Cours 1 : my_cv - All utilities CSS by Reza Belounis **/
+/**********************************************************/
+
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+/* Fonts/headings */
+h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
+/* Test font */
+.poppins-300 { font-weight: 300; }
+.poppins-400 { font-weight: 400; }
+.poppins-500 { font-weight: 500; }
+.poppins-600 { font-weight: 600; }
+.poppins-700 { font-weight: 700; }
+.poppins-800 { font-weight: 800; }
+
+/* Colors */
+.bg-blueK {
+    background-color: #0475ba;
+    width: 100%;}
+.text-blueK { color: #0475ba; }
+.text-white { color: white; }
+.fa-twitter, .fa-linkedin { color: white; }
+
+/* Lists */
+.no-list { list-style: none; }
+.inline-list { display: inline-flex ;}
+
+/* Margins */
+.margin-left-10 { margin-left: 10px }
+.margin-left-20 { margin-left: 20px }
+.margin-left-30 { margin-left: 30px }
+.margin-left-40 { margin-left: 40px }
+.margin-top-10 { margin-top: 10px }
+.margin-top-20 { margin-top: 20px }
+.margin-top-30 { margin-top: 30px }
+.margin-right-40 { margin-right: 40px }
+.margin-right-10 { margin-right: 10px }
+.margin-right-20 { margin-right: 20px }
+.margin-right-30 { margin-right: 30px }
+.margin-right-40 { margin-right: 40px }
+.margin-bottom-10 { margin-bottom: 10px }
+.margin-bottom-20 { margin-bottom: 20px }
+.margin-bottom-30 { margin-bottom: 30px }
+.margin-bottom-40 { margin-bottom: 40px }
+
+/* Special row margin */
+.margin-row {
+    margin-top: 40px;
+    margin-bottom: 40px;}
+
+/* Paddings */
+.padding-left-10 { padding-left: 10px }
+.padding-left-20 { padding-left: 20px }
+.padding-left-30 { padding-left: 30px }
+.padding-left-40 { padding-left: 40px }
+.padding-top-10 { padding-top: 10px }
+.padding-top-20 { padding-top: 20px }
+.padding-top-30 { padding-top: 30px }
+.padding-right-40 { padding-right: 40px }
+.padding-right-10 { padding-right: 10px }
+.padding-right-20 { padding-right: 20px }
+.padding-right-30 { padding-right: 30px }
+.padding-right-40 { padding-right: 40px }
+.padding-bottom-10 { padding-bottom: 10px }
+.padding-bottom-20 { padding-bottom: 20px }
+.padding-bottom-30 { padding-bottom: 30px }
+.padding-bottom-40 { padding-bottom: 40px }
+
+/* Special row padding */
+.padding-row {
+    padding-top: 40px;
+    padding-bottom: 40px;}
+
+/* Images */
+.img-rounded { border-radius: 50%; }
+.img-shadow { filter: drop-shadow(3px 3px 3px grey); }
