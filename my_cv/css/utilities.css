@@ -5,9 +5,11 @@
 /* Imports */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
 
-/* Fonts/headings */
+/* Headings */
 h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
-/* Test font */
+
+/* Font weights */
+.bold { font-weight: bold; }
 .poppins-300 { font-weight: 300; }
 .poppins-400 { font-weight: 400; }
 .poppins-500 { font-weight: 500; }
@@ -26,6 +28,14 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
 /* Lists */
 .no-list { list-style: none; }
 .inline-list { display: inline-flex ;}
+
+/* Images */
+.img-rounded { border-radius: 50%; }
+.img-shadow { filter: drop-shadow(3px 3px 3px grey); }
+
+/* Floats */
+.float-left { float: left; }
+.float-right { float: right; }
 
 /* Margins */
 .margin-left-10 { margin-left: 10px }
@@ -73,6 +83,52 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
     padding-top: 40px;
     padding-bottom: 40px;}
 
-/* Images */
-.img-rounded { border-radius: 50%; }
-.img-shadow { filter: drop-shadow(3px 3px 3px grey); }
+.padding-row-lr-10 {
+    padding-left: 10%;
+    padding-right: 10%;}
+
+.padding-row-lr-20 {
+    padding-left: 20%;
+    padding-right: 20%;}
+
+.padding-row-lr-30 {
+    padding-left: 30%;
+    padding-right: 30%;}
+
+.padding-row-lr-40 {
+    padding-left: 40%;
+    padding-right: 40%;}
+
+@media (max-width: 767px) {
+.padding-row-lr-sm-10 {
+    padding-left: 10%;
+    padding-right: 10%;}
+
+.padding-row-lr-sm-20 {
+    padding-left: 20%;
+    padding-right: 20%;}
+
+.padding-row-lr-sm-30 {
+    padding-left: 30%;
+    padding-right: 30%;}
+
+.padding-row-lr-sm-40 {
+    padding-left: 40%;
+    padding-right: 40%;}}
+
+@media (min-width: 768px) {
+.padding-row-lr-md-10 {
+    padding-left: 10%;
+    padding-right: 10%;}
+
+.padding-row-lr-md-20 {
+    padding-left: 20%;
+    padding-right: 20%;}
+
+.padding-row-lr-md-30 {
+    padding-left: 30%;
+    padding-right: 30%;}
+
+.padding-row-lr-md-40 {
+    padding-left: 40%;
+    padding-right: 40%;}}
