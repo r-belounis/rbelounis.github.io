@@ -160,3 +160,11 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
 .padding-row-lr-md-40 {
     padding-left: 40%;
     padding-right: 40%;}}
+
+/* Special user agent reset, for footer specific */
+@media (max-width: 767px) {
+    .padding-reset-inline-sm { padding-inline-start: 0 !important; }}
+
+/* Special user agent reset, for nav specific */
+@media (min-width: 768px) {
+    .padding-reset-inline-md { padding-inline-start: 0 !important; }}

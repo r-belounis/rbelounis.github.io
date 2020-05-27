@@ -22,20 +22,19 @@ body {
     text-align: left;
     background-color: #fff;}
 
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;}
+h1, h2, h3, h4, h5, h6 { margin-top: 0; }
 
-p {
+h1 { margin-bottom: 0.5rem; }
+
+h2, h3, h4, h5, h6 { margin-bottom: 1.5rem; }
+
+p, span {
     margin-top: 0;
     margin-bottom: 1rem;}
 
 ol, ul {
     margin-top: 0;
     margin-bottom: 1rem;}
-
-@media (max-width: 767px) {
-    ol, ul { padding-inline-start: 0 !important; }}
 
 ol ol, ul ul, ol ul, ul ol { margin-bottom: 0; }
 
