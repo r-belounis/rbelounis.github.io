@@ -49,13 +49,19 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
     .sm-hide { visibility: hidden; }
     .sm-none { display: none; }}
 
-    @media (min-width: 768px) {
+@media (min-width: 768px) {
     .md-visible { visibility: visible; }
     .md-hide { visibility: hidden; }
     .md-none { display: none; }}
 
 /* Text aligning */
 .text-align-center { text-align: center; }
+
+@media (max-width: 767px) {
+    .text-align-sm-center { text-align: center; }}
+
+@media (max-width: 768px) {
+    .text-align-md-center { text-align: center; }}
 
 /* Margins */
 .margin-left-10 { margin-left: 10px }
