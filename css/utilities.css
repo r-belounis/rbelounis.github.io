@@ -23,9 +23,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
 .poppins-800 { font-weight: 800; }
 
 /* Colors */
-.bg-blueK {
-    background-color: #0475ba;
-    width: 100%;}
+.bg-blueK { background-color: #0475ba; }
 .text-blueK { color: #0475ba; }
 .text-white { color: white; }
 .fa-twitter, .fa-linkedin { color: white; }
