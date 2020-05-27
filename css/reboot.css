@@ -34,6 +34,9 @@ ol, ul {
     margin-top: 0;
     margin-bottom: 1rem;}
 
+@media (max-width: 767px) {
+    ol, ul { padding-inline-start: 0 !important; }}
+
 ol ol, ul ul, ol ul, ul ol { margin-bottom: 0; }
 
 a {

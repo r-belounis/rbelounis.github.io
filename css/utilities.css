@@ -125,6 +125,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
     padding-left: 40%;
     padding-right: 40%;}
 
+/* Small padding rows */
 @media (max-width: 767px) {
 .padding-row-lr-sm-10 {
     padding-left: 10%;
@@ -142,6 +143,7 @@ h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
     padding-left: 40%;
     padding-right: 40%;}}
 
+/* Medium padding rows */
 @media (min-width: 768px) {
 .padding-row-lr-md-10 {
     padding-left: 10%;
