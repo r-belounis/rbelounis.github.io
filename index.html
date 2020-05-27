@@ -1,11 +1,10 @@
 <!doctype html>
-<html lang="fr">
 <head>
   <!-- Metadata -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="CV de Noémie Martin">
-  <title>My CV</title>
+  <title>CV de Noémie MARTIN</title>
   <!-- Stylesheets -->
   <link rel="stylesheet" href="./css/reboot.css">
   <link rel="stylesheet" href="./css/grid.css">
@@ -13,11 +12,10 @@
   <link rel="stylesheet" href="./css/my_cv.css">
 </head>
 <body>
-    <!-- Main Wrapper -->
+<!-- Main Wrapper -->
     <div class="container-fluid">
-        <!-- Header -->
-        <header class="bg-blueK">
-            <nav class="row padding-top-20 align-items-baseline">
+        <!-- Nav -->
+            <nav class="row padding-top-20 align-items-baseline bg-blueK">
                 <div class="col-sm-6 col-md-3">
                     <h1 class="poppins-600 text-white">Noémie MARTIN</h1>
                 </div>
@@ -35,23 +33,24 @@
                     </ul>
                 </div>
             </nav>
+        <!-- Nav - END -->
+
+        <!-- Header/Profile Section -->
+        <header id="profil" class="row padding-row padding-row-lr-20 justify-content-md-between justify-content-sm-center">
+            <div class="col-auto text-align-center">
+                <h1 class="poppins-2em">Noémie MARTIN</h1></br>
+                <h2 class="text-blueK">Développeuse Fullstack</h2>
+            </div>
+            <div class="col-auto">
+                <img id="noemie-img" class="img-rounded img-shadow" src="img/noemie_martin.png" alt="Photo de Noémie Martin">
+            </div>
         </header>
-        <!-- Header - END -->
+        <!-- Header/Profile Section - END -->
 
         <!-- Main content -->
         <main>
-            <!-- Profil Section -->
-            <div id="profil" class="row padding-row padding-row-lr-20 justify-content-md-between justify-content-sm-center">
-                <div class="col-auto text-align-center">
-                    <h1 class="poppins-2em">Noémie MARTIN</h1></br>
-                    <h2 class="text-blueK">Développeuse Fullstack</h2>
-                </div>
-                <div class="col-auto">
-                    <img id="noemie-img" class="img-rounded img-shadow" src="img/noemie_martin.png" alt="Photo de Noémie Martin">
-                </div>
-            </div>
             <!-- Présentation Section -->
-            <div class="bg-blueK">
+            <section class="bg-blueK">
                 <div class="row padding-row padding-row-lr-10 justify-content-between">
                     <div class="col-auto">
                         <h1 class="poppins-2em text-white">Présentation</h1></br>
@@ -62,15 +61,15 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- Expériences Section -->
-            <div id="exp" class="row padding-row padding-row-lr-md-10 justify-content-between">
+            <section id="exp" class="row padding-row padding-row-lr-md-10 justify-content-between">
                 <div class="col-auto">
                     <h1 class="poppins-2em text-blueK">Expériences professionelles</h1></br>
                 </div>
-                <div class="col-12">
-                    <p class="bold float-left">Stagiaire en développement chez TechLabs</p>
-                    <p class="float-right poppins-500">2018</p>
+                <div class="col-12 flex justify-content-between">
+                    <span class="bold">Stagiaire en développement chez TechLabs</span>
+                    <span class="poppins-500">2018</span>
                 </div>
                 <div class="col-12">
                     <p class="poppins-500">Création du site web</p>
@@ -79,8 +78,8 @@
                     <p class="poppins-500">Création de tests unitaires pour l'application interne</p>
                 </div>
                 <div class="col-12">
-                    <p class="bold float-left">Bénévole Konexio</p>
-                    <p class="float-right poppins-500">2016-2018</p>
+                    <span class="bold">Bénévole Konexio</span>
+                    <span class="poppins-500">2016-2018</span>
                 </div>
                 <div class="col-12">
                     <p class="poppins-500">Organisation des événements</p>
@@ -88,14 +87,14 @@
                 <div class="col-12">
                     <p class="poppins-500">Validation des comptes de l'association</p>
                 </div>
-            </div>
+            </section>
             <!-- Formations Section -->
-            <div id="formation" class="bg-blueK text-white">
+            <section id="formation" class="bg-blueK text-white">
                 <div class="row padding-row padding-row-lr-md-10 justify-content-between">
                     <div class="col-auto">
                         <h1 class="poppins-2em poppins-500">Formations</h1></br>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12 flex justify-content-between">
                         <p class="float-left poppins-500">Licence en médecine à Paris XXI</p>
                         <p class="float-right poppins-500">2015-2018</p>
                     </div>
@@ -104,14 +103,14 @@
                         <p class="float-right poppins-500">2015</p>
                     </div>
                 </div>
-            </div>
+            </section>
             <!-- Passions Section -->
-            <div class="row padding-row padding-row-lr-10 justify-content-between">
+            <section class="row padding-row padding-row-lr-10 justify-content-between">
                 <div class="col-auto">
                     <h1 class="poppins-2em poppins-500 text-blueK">Passions</h1></br>
                     <p class="poppins-1em poppins-500">Saut en parachute, Bali</p>
                 </div>
-            </div>
+            </section>
         </main>
         <!-- Main content - END -->
 
@@ -150,4 +149,5 @@
 </body>
 <!-- Scripts -->
 <script src="https://kit.fontawesome.com/447b2c752f.js" crossorigin="anonymous"></script>
+<!-- Scripts - END-->>
 </html>

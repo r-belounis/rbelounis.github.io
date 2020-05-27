@@ -632,17 +632,3 @@
 .align-self-stretch {
     -ms-flex-item-align: stretch !important;
     align-self: stretch !important;}
-
-/* Visible/Hidding */
-@media (max-width: 767px) {
-.sm-visible { visibility: visible; }
-.sm-hide { visibility: hidden; }
-.sm-none { display: none; }}
-
-@media (min-width: 768px) {
-.md-visible { visibility: visible; }
-.md-hide { visibility: hidden; }
-.md-none { display: none; }}
-
-/* Text aligning */
-.text-align-center { text-align: center; }
