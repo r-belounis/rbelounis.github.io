@@ -8,6 +8,11 @@
 /* Headings */
 h1, h2, h3, h4, h5, h6 { font-family: 'Poppins', sans-serif; }
 
+/* Font Sizes */
+.poppins-05em { font-size: .5em; }
+.poppins-2em { font-size: 2em; }
+.poppins-3em { font-size: 3em; }
+
 /* Font weights */
 .bold { font-weight: bold; }
 .poppins-300 { font-weight: 300; }
